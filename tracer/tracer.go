@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-var log = logger.NewLogger()
+var log = logger.GetLogger()
 
 func InitTracer(serviceName string) func() {
 	ctx := context.Background()

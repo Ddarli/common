@@ -6,6 +6,6 @@ type Logger struct {
 	logger *zap.SugaredLogger
 }
 
-func NewLogger() *zap.SugaredLogger {
+func GetLogger() *zap.SugaredLogger {
 	return zap.NewNop().Sugar()
 }
