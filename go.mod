@@ -1,4 +1,4 @@
-module github.com/Ddarli/common
+module github.com/Ddarli/gym/common
 
 go 1.23.1
 
